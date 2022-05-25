@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  overflow: auto;
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  margin: 2rem 0;
+}
+
+pre {
+  font-size: 7em;
+}
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.tick text {
+  fill: #635f5d;
+}
+
+.tooldiv {
+  position: absolute;
+
+  background-color: rgba(99, 95, 93, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(0.5em);
+  backdrop-filter: blur(0.5em);
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #495057;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #635f5d;
+
+
+}
+
+#title {
+  margin: 1rem 0;
+}
+
+#title h1 {
+  font-size: 1.75em;
+  text-align: center;
+  color: #413f3e;
+  margin: 0;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+}
+
+#title p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #413f3e;
+  margin: 0;
+}
+
+#legend line {
+  stroke: #635f5d;
+  stroke-width: 1
+}
+
+#legend text {
+  font-size: 0.7em;
+}
+
+line {
+  stroke: #635f5d;
+  stroke-width: 1
+}
+
+.copyright {
+  opacity: 0.75;
+  transition: opacity 0.75s ease;
+}
+
+.copyright:hover {
+  opacity: 1;
+}

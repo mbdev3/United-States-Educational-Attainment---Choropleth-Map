@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>United States Educational Attainment - Choropleth Map</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.9.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/d3@5.11.0/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="bundle.js"></script>
+
+    <script>
+      const tooldiv = d3.select("body").append("div").attr("class", "tooldiv").attr("id", "tooltip");
+    </script>
+  </body>
+</html>
