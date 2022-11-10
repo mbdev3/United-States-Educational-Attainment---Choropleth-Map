@@ -1,8 +1,6 @@
 # United States Educational Attainment - Choropleth Map
 
----
 
-### :camera: Preview:
 
 <img src="https://projects-preview.s3.eu-west-3.amazonaws.com/United+States+Educational+Attainment+mbdev.webp"    />
 
